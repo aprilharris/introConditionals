@@ -27,9 +27,7 @@
 //   console.log("You ordered a small.")
 // };
 
-
-
-// CHAINING CONDITIONS WITH && OPERATOR
+//THE && OPERATOR (AND)
 //Write a program that determines if the user passed the course
 //The user must pass all 3 exams
 //Note that 65 is passing
@@ -44,13 +42,12 @@
 //   console.log("You FAILED the course.");
 // };
 
-//CHAINING CONDITIONS WITH || OPERATOR
+//THE || OPERATOR (OR)
 //write a program that determines if user passed the course
 //they fail if they're absent more than 3 times or if they score less than 65 on the final exam
 
 // let number_of_absences = 100;
 // let finalExam = 90;
-
 
 // if ( (number_of_absences >=3) || (finalExam<65) ) {
 //   console.log("You failed the course.");
@@ -58,8 +55,15 @@
 //   console.log("You passed the course.");
 // }
 
-let passed_level_1;
-let passed_level_2;
+//THE ! OPERATOR (NEGATION)
+// write a program that determines whether or not the user goes to the gym based on this condition: "I'll go to the gym if I'm not tired."
 
+// let tired = true;
+
+// if ( !(tired) ) {
+//   console.log("I'll go to the gym.");
+// } else {
+//   console.log("🥱 I'm not going to the gym.");
+// }
 
 
